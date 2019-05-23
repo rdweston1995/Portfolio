@@ -1,0 +1,16 @@
+.name{
+    text-align: center;
+    font-size: 100px;
+}
+
+.whatIDo{
+    text-align: center;
+    font-size: 50px;
+}
+
+.proPic{
+    width: 500px;
+    height: 550px;
+    transform: rotate(-90deg);
+    border-radius: 200px;
+}
