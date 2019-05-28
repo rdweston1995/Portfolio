@@ -18,17 +18,86 @@
     <title>Robert Weston</title>
 </head>
 <body>
+    <!-- Container that will hold all the information that is displayed on the page-->
     <div class='container'>
+            <a name='aboutMe'>&nbsp</a>
+
+        <!-- Main Title -->
         <div class='row title'>
             <h1 class='name col-md-12'>Robert Weston</h1>
             <h2 class='whatIDo col-md-12'>Full Stack Web Developer</h2>
         </div>
-
-        <div class='row aboutMe'>
+        <!-- About me -->
+        <div class='row aboutMe' name='aboutMe'>
+            <!-- Picture -->
             <div class='col-md-4'>
                 <img class='proPic' src='assets/images/ProfilePicture.jpg'>
             </div>
+
+            <!-- Bio -->
+            <div class='col-md-4'>
+                
+                <p class='bio'>
+                    Hi my name is Robert Weston, I am a Seattle based Web Developer. I've been working my way through the University of Washington
+                    Full stack coding bootcamp for the past couple of months and I'm looking to get into the job market to further expand my skill set.
+                    <br>
+                    My skills are in HTML + CSS and Javascript.  
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+
+                </p>
+            </div>
         </div>
+
+        <!-- Links to other sites -->
+        <div class='row links'>
+            <div class='linkedin'></div>
+            <div class='github'></div>
+        </div>
+
+        <div class='row portfolio' name='portfolio' >
+            <a name='portfolio'>&nbsp</a>
+            <div class='portfolio1'>
+            </div>
+            <div class='portfolio2'>
+            </div>
+        </div>
+
+        <dic class='row contact' name='contact'>
+            <a name='contact'>&nbsp</a>
+            <form action='/action_page.php'>
+                Name: <br><input type='text' name='Name'><br>
+                Email: <br><input type='text' name='Email' value='example@example.com'><br>
+                Message: <br><input type='text' name='Message' rows='14' cols='102'><br>
+            </form>
+            <button class=' btn btn-lg' id='submit'>Submit</button>
+        </dic>
+
+    </div>
+
+    <div class='navLinks'>
+        <aside>
+            <a class='aboutMeLink' href='#aboutMe'>About Me</a><br>
+            <a class='portfolioLink' href='#portfolio'>Portfolio</a><br>
+            <a class='contactLink' href="#contact">Test</a>
+        </aside>
     </div>
 </body>
 </html>

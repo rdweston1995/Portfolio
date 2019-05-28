@@ -9,8 +9,25 @@
 }
 
 .proPic{
-    width: 500px;
-    height: 550px;
+    width: 10rem;
+    height: 10rem;
     transform: rotate(-90deg);
-    border-radius: 200px;
+    
+}
+
+.navLinks{
+    position: fixed;
+    top: 0px;
+    right: 2%;
+    float: right;
+    text-align: right;
+    
+}
+
+.portfolioCard{
+    margin: 10px, 10px, 10px, 10px;
+}
+
+.bio{
+    text-align: center;
 }
