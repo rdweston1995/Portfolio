@@ -20,7 +20,7 @@
 <body>
     <!-- Container that will hold all the information that is displayed on the page-->
     <div class='container'>
-            <a name='aboutMe'>&nbsp</a>
+        <a name='aboutMe'>&nbsp</a>
 
         <!-- Main Title -->
         <div class='row title'>
@@ -30,14 +30,39 @@
         <!-- About me -->
         <div class='row aboutMe' name='aboutMe'>
             <!-- Picture -->
-            <div class='col-md-4'>
+            <div class='col-md-3'>
                 <img class='proPic' src='assets/images/ProfilePicture.jpg'>
+                <!-- Links to other sites -->
+            <div class='row links'>
+                <div class='linkedin'>
+                    <a href="https://www.linkedin.com/in/robert-weston-177b08117/">LinkedIn</a>
+                </div>
+                <div class='github'>
+                    <a href="https://github.com/rdweston1995">Github</a>
+                </div>
+                <div class='resume'>
+            
+                </div>
+                <div class='myEmail'>
+                    <p>robert.d.weston@gmail.com</p>
+                </div>
+                <div class='phnNum'>
+                    <p>(253) - 797 - 7899</p>
+                </div>
+            </div>
             </div>
 
             <!-- Bio -->
-            <div class='col-md-4'>
+            <div class='col-md-6'>
                 
                 <p class='bio'>
+                        My name is Robert Weston and I live in the Kent area of Washington State. I currently work for the Renton Parks 
+                        department at Coulon park. Outside of work and school for fun I spend time outdoors hiking, biking, and photography. I'm planning on 
+                        climbing all the major peaks in the pacific north west starting with the ones in Washington State. Starting with Mt. St Helens 
+                        in this upcoming fall and then moving on to Glacier Peak, Mt. Baker, and then Mt. Rainier. I've studied at Green River College and most recently 
+                        Bellevue College. At both instituions I studied Computer Science with a primary focus on Java and Python languages. My main goal with my career is 
+                        to work for SpaceX to help push the bounds of human space travel. I'd also like to start my own business one day in the cyber security sector.
+                        <br>
                     Hi my name is Robert Weston, I am a Seattle based Web Developer. I've been working my way through the University of Washington
                     Full stack coding bootcamp for the past couple of months and I'm looking to get into the job market to further expand my skill set.
                     <br>
@@ -46,54 +71,61 @@
             </div>
         </div>
 
-        <!-- Links to other sites -->
-        <div class='row links'>
-            <div class='linkedin'></div>
-            <div class='github'></div>
-        </div>
+        
 
         <div class='row portfolio' name='portfolio' >
-            <a name='portfolio'>&nbsp</a>
-            <div class='portfolio1' id='strainAPI'>
-                <!--<h3>Area of Growth</h3>-->
-                <img class='portPic' id='AOGpic' src="assets/images/AOG.jpg" alt="Area of Growth Wedsite interface">
-                <p>Area of Growth is a site that is for a user that is looking to find more infromation about marijuana strains.
-                    If the user has some knowledge and wants to expand that knowledge or is looking to try something different. Or if
-                    the user has no knowledge and is looking to see what marijuana can do for them and what strains they may be interested in trying.
-                </p>
-                
+            <a name='portfolio'></a>
+            <div class='col-md-12'>
+                <h2 class='portTitle'>Portfolio</h2>
             </div>
-            <br>
-            <div class='portfolio2' id='spaceTrivia'>
-                <!--<h3>Space Trivia</h3>-->
-                <img class='portPic' id='STpic' src='assets/images/ST.jpg' alt="Space Trivia Interface">
-                <p>Space Trivia is a site I made to practice my javascript skills to make a trivia game that responds to user input. Having the game start and reset
-                    without needing a page reload. Using timers to give the user a time limit to answer the questions. Displaying the correct answer whether the 
-                    user got the answer right or wrong.
-                </p>
+            
+            <div class="card portfolioCard">
+                <img src="assets/images/AOG.jpg" class="card-img-top AoG" alt="Area of Growth Interface">
+                <div class="card-body">
+                    <p class="card-text">Area of Growth is a site that is for a user that is looking to find more infromation about marijuana strains.
+                            If the user has some knowledge and wants to expand that knowledge or is looking to try something different. Or if
+                            the user has no knowledge and is looking to see what marijuana can do for them and what strains they may be interested in trying.</p>
+                    <button class="btn AoGcode">Code</button> 
+                </div>
             </div>
-            <br>
-            <div class='portfolio3' id='wordGuess'>
-                <!--<h3>Mountain Guessing Game</h3>-->
-                <img class='portPic' id='MTpic' src='assets/images/MT.jpg' alt="Mountain Guessing Game Interface">
-                <p>Mountain's Hangman is a site that I used to practice my javascript skills with user input with the keyboard. Have a random mountain selected it will show
-                    how many characters that the word will, with hints displayed to help the user make a guess. After the mountain is guessed correctly then a picture 
-                    of the mountain will be displayed along with its location on a map.
-                </p>
-                <br>
-                <br>
+
+            <div class="card portfolioCard">
+                <img src="assets/images/MT.jpg" class="card-img-top MtnHng" alt="Mountains Hangman Interface">
+                <div class="card-body">
+                    <p class="card-text">Mountain's Hangman is a site that I used to practice my javascript skills with user input with the keyboard. Have a random mountain selected it will show
+                            how many characters that the word will, with hints displayed to help the user make a guess. After the mountain is guessed correctly then a picture 
+                            of the mountain will be displayed along with its location on a map.</p>
+                    <button class="btn Mtncode">Code</button> 
+
+                </div>
+            </div>
+            
+            <div class="card portfolioCard">
+                <img src="assets/images/ST.jpg" class="card-img-top SpTr" alt="Space Trivia Interface">
+                <div class="card-body">
+                    <p class="card-text">Space Trivia is a site I made to practice my javascript skills to make a trivia game that responds to user input. Having the game start and reset
+                            without needing a page reload. Using timers to give the user a time limit to answer the questions. Displaying the correct answer whether the 
+                            user got the answer right or wrong.</p>
+                    <button class="btn spaceCode">Code</button> 
+
+                </div>
             </div>
         </div>
 
-        <dic class='row contact' name='contact'>
+        <div class='row contact' name='contact'>
             <a name='contact'>&nbsp</a>
+            <div class='col-md-12'>
+                <h2 class='contactTitle'>Contact Me</h2>
+            </div>
+            <p>Coming Soon</p>
+            <!--
             <form action='/action_page.php'>
                 Name: <br><input type='text' name='Name'><br>
                 Email: <br><input type='text' name='Email' value='example@example.com'><br>
                 Message: <br><input type='text' name='Message' rows='14' cols='102'><br>
-            </form>
-            <button class=' btn btn-lg' id='submit'>Submit</button>
-        </dic>
+            </form>-->
+            <!--<button class=' btn btn-lg' id='submit'>Submit</button>-->
+        </div>
 
     </div>
 

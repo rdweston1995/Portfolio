@@ -1,6 +1,8 @@
+/* Main Body */
 body{
-    background-color: black;
+    background-image: url("../images/DSC_1050.jpg");
 }
+/** Main Container **/
 .container{
     background-color: #ffffff;
 }
@@ -10,40 +12,54 @@ body{
     font-size: 100px;
 }
 
+.bio{
+    text-align: center;
+}
+
 .whatIDo{
     text-align: center;
     font-size: 50px;
 }
 
 .proPic{
+    /*Looks like Shit */
     width: 10rem;
     height: 10rem;
     transform: rotate(-90deg);
+    border-radius: 5px;
     
 }
 
+/*** Nav Links ***/
 .navLinks{
     position: fixed;
     top: 0px;
     right: 2%;
     float: right;
     text-align: right;
-    
 }
 
-.portfolioCard{
-    margin: 10px, 10px, 10px, 10px;
-}
-
-.bio{
-    text-align: center;
+.github{
+    float:left;
 }
 
 /*** PORTFOLIO ***/
 .portfolio{
     left: 10%;
 }
-.portPic{
-    width: 100%;
-    height: 90%;
+
+.portTitle{
+    text-align: center;
+}
+
+.portfolioCard{
+    width: 50rem;
+    height: 40rem;
+    margin-bottom: 2rem;
+    left: 15%;
+}
+
+/**** Contact ****/
+.contactTitle{
+    text-align: center;
 }
