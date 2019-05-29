@@ -23,8 +23,8 @@ body{
 
 .proPic{
     /*Looks like Shit */
-    width: 10rem;
-    height: 10rem;
+    width: 15rem;
+    height: 13rem;
     transform: rotate(-90deg);
     border-radius: 5px;
     
@@ -34,13 +34,22 @@ body{
 .navLinks{
     position: fixed;
     top: 0px;
-    right: 2%;
+    right: 0px;
+
+    padding: 10px 10px 10px 10px;
     float: right;
     text-align: right;
+
+    background-color: #ffffff;
+    border-radius: 2px;
+    
 }
 
-.github{
+.github, .linkedin, .resume{
     float:left;
+    
+    margin-top: 20px;
+    margin-right:15px;
 }
 
 /*** PORTFOLIO ***/
@@ -62,4 +71,24 @@ body{
 /**** Contact ****/
 .contactTitle{
     text-align: center;
+}
+
+
+/*** Media Queries ****/
+@media screen and (max-width: 980px){
+    .wrapper{
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .wrapper{
+        width: 600px;
+    }
+}
+
+@media sreen and (max-width: 640px){
+    .wrapper{
+        width: 600px;
+    }
 }
