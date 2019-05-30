@@ -2,11 +2,30 @@
 body{
     background-image: url("../images/DSC_1050.jpg");
 }
+
+/** Header **/
+.navbar{
+    position: fixed;
+    width: 100%;
+    background-color: #ffffff;
+}
 /** Main Container **/
 .container{
     background-color: #ffffff;
 }
 
+.picture{
+    margin-bottom: 15px;
+}
+
+.proPic{
+    width: 13rem;
+    height: 15rem;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 .name{
     text-align: center;
     font-size: 100px;
@@ -21,29 +40,13 @@ body{
     font-size: 50px;
 }
 
-.proPic{
-    /*Looks like Shit */
-    width: 15rem;
-    height: 13rem;
-    transform: rotate(-90deg);
-    border-radius: 5px;
-    
+
+
+.horizontal{
+    float: left;
+    width: 200px;
 }
 
-/*** Nav Links ***/
-.navLinks{
-    position: fixed;
-    top: 0px;
-    right: 0px;
-
-    padding: 10px 10px 10px 10px;
-    float: right;
-    text-align: right;
-
-    background-color: #ffffff;
-    border-radius: 2px;
-    
-}
 
 .github, .linkedin, .resume{
     float:left;
@@ -79,16 +82,34 @@ body{
     .wrapper{
         width: 600px;
     }
+    .portfolioCard{
+        /*width: 25rem;*/
+        width: 80%;
+        left: 10%;
+    }
+
+    .proPic{
+        height: 20rem;
+        width: 15rem;
+    }
 }
 
 @media screen and (max-width: 768px){
     .wrapper{
         width: 600px;
     }
+
+    
 }
 
 @media sreen and (max-width: 640px){
     .wrapper{
         width: 600px;
+    }
+
+    .portfolioCard{
+        width: 15rem;
+        height: 1rem;
+        left: 10%;
     }
 }
