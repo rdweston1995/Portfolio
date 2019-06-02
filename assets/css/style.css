@@ -8,13 +8,14 @@ body{
     position: fixed;
     width: 100%;
     background-color: #ffffff;
-    /*z-index: 1;*/
+    z-index: 1;
     
 }
 /** Main Container **/
 .container{
     background-color: #ffffff;
-    
+    position: relative;
+    top:3rem;
 }
 
 .picture{
@@ -82,6 +83,39 @@ body{
     left: 15%;
 }
 
+.github, .linkedin{
+    margin: 0px 15px 0px 0px;
+}
+
+/**** Skill ****/
+.skills{
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#languages{
+    text-align: left;
+} 
+#databases{
+    text-align: center;
+}
+
+#tools{
+    text-align: right;
+}
+#languages, #databases, #tools{
+    text-align: center;
+    margin: 30px 0px 30px 0px;
+    text-decoration: underline;
+}
+
+.languages, .databases, .tools{
+    width: 150px;
+}
+
+
 /**** Contact ****/
 .contactTitle{
     text-align: center;
@@ -108,6 +142,11 @@ body{
     .link{
         width: 250px;
         margin-bottom: 15px;
+        margin-left: 20px;
+    }
+
+    .container{
+        top: 0rem;
     }
 }
 
@@ -115,7 +154,9 @@ body{
     .wrapper{
         width: 600px;
     }
-
+    .link{
+        width: 300px;
+    }
     
 }
 
