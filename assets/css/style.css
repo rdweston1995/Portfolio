@@ -1,6 +1,7 @@
 /* Main Body */
 body{
     background-image: url("../images/DSC_1050.jpg");
+    background-size: 100%;
 }
 
 /** Header **/
