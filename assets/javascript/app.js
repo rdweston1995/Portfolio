@@ -6,13 +6,13 @@ $(document).ready(function(){
     });
     */
     //On Click functions for Area of Growth Site and code
-    $(".AoGsite").on('click', function(){
+    /*$(".AoGsite").on('click', function(){
         window.open("https://rdweston1995.github.io/Project1/", "_blank");
-    })
+    })*/
     
-    $(".AoGcode").on('click', function(){
+    $(".liricode").on('click', function(){
         
-        window.open("https://github.com/rdweston1995/Project1", '_blank');
+        window.open("https://github.com/rdweston1995/Liri", '_blank');
     })
     
     /*
