@@ -141,6 +141,10 @@ a{
     .bio{
         margin: 10px 10px 10px 10px;
     }
+    .name{
+        font-size: 75px;
+        
+    }
     .portfolioCard{
         /*width: 25rem;*/
         width: 80%;
