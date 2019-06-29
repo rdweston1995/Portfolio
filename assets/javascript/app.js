@@ -9,6 +9,10 @@ $(document).ready(function(){
     /*$(".AoGsite").on('click', function(){
         window.open("https://rdweston1995.github.io/Project1/", "_blank");
     })*/
+
+    $('.bamazoncode').on('click', function(){
+        window.open("https://github.com/rdweston1995/bamazon", '_blank');
+    });
     
     $(".liricode").on('click', function(){
         
