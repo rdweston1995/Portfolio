@@ -47,6 +47,14 @@ $(document).ready(function(){
     $(".spaceSite").on('click', function(){
         window.open("https://rdweston1995.github.io/TriviaGame/", "_blank");
     })
+
+    $(".karaokeSite").on("click", function(){
+        window.open("https://gentle-brook-97291.herokuapp.com/", "_blank");
+    });
+
+    $(".karaokecode").on("click", function(){
+        window.open("https://github.com/rdweston1995/JustDuet", "_blank");
+    });
 })
 
 
