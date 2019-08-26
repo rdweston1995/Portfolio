@@ -5,7 +5,7 @@ class home extends Component {
     render(){
         return (
             <React.Fragment>
-                <p>Testing</p>
+                
             </React.Fragment>
         )
     }
