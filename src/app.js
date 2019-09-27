@@ -5,10 +5,11 @@ import Home from "./pages/Home/home";
 class app extends Component {
     render(){
         return (
+            // <Home/>
             <Router>
                 <Switch>
                     <Route exact path="/" component={Home} />
-                    <Route componet={Home} />
+                    <Route component={Home} />
                 </Switch>
             </Router>
         )
