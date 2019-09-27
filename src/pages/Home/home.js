@@ -18,7 +18,7 @@ class home extends Component {
                     <h1 id="homePageName">Robert Weston</h1>
                     <h2 id="homePageTitle">Full Stack Web Developer</h2>
 
-                    <div className="homeNextPageButton">></div>
+                    <div className="homeNextPageButton" onClick={function changePage(){console.log("testing")}}>></div>
                 </Col>
             </Row>
         )
