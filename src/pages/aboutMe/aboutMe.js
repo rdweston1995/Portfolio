@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import listItem from "./../../components/listItem";
+import ListItem from "./../../components/listItem";
 import "./aboutMe.css";
 
 class aboutMe extends Component{
@@ -27,7 +27,7 @@ class aboutMe extends Component{
                         <ul>
                             {this.state.languages.map(function(lang, i){
                                 return(
-                                    <li className="languageListItem" key={i}>{lang}</li>
+                                    <ListItem skill={lang} key={i}/>
                                 )
                             })}
                         </ul>
@@ -35,7 +35,7 @@ class aboutMe extends Component{
                         <ul>
                             {this.state.databases.map(function(database, i){
                                 return(
-                                    <li className="databaseListItem" key={i}>{database}</li>
+                                    <ListItem skill={database} key={i}/>
                                 )
                             })}
                         </ul>
@@ -43,7 +43,7 @@ class aboutMe extends Component{
                         <ul>
                             {this.state.tools.map(function(tool, i){
                                 return(
-                                    <li className="toolListItem" key={i}>{tool}</li>
+                                    <ListItem skill={tool} key={i}/>
                                 )
                             })}
                         </ul>
