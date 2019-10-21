@@ -1,0 +1,15 @@
+.aboutMe{
+    background-image: url("https://i.imgur.com/xsIqnig.jpg");
+    background-size: 100%;
+    box-shadow: inset 5px 0 10px #000000;
+    
+}
+
+.bufferZone{
+    /* border-radius: 10rem;
+    border-style: solid;
+    border-color: black; */
+    height: 5px;
+    /* background-color: black; */
+    /* background-image: linear-gradient(black, transparent); */
+}

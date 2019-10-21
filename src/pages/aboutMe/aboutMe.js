@@ -13,7 +13,9 @@ class aboutMe extends Component{
 
     render(){
         return(
+            
             <div className="aboutMe">
+                <div className="bufferZone"/>
                 <Row>
                     <Col>
                         <h2>About Me</h2>
