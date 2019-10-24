@@ -10,10 +10,12 @@ class app extends Component {
             
             <Router>
                 <Home />
+                <AboutMe />
                 <Switch>
+                    <Route exact path="/home" component={Home} />
                     <Route exact path="/aboutMe" component={AboutMe} />
                     <Route exact path="/projects" component={Projects} />
-                    <Route component={Home} />
+                    {/* <Route component={Home} /> */}
                 </Switch>
             </Router>
         )

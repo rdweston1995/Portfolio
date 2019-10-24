@@ -2,19 +2,23 @@
     background-image: url("https://i.imgur.com/haBMi7g.jpg");
     background-size: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 0;
     /* z-index: 5; */
 }
 
 .homePageCol{
     width: 100%; 
     height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 
 #homePageName{
     position: absolute;
     /* margin: 15.3% 0 0 33.3%; */
     /* text-align:center; */
-    margin:auto;
+    /* margin:auto; */
+    margin: 0;
     width: 100%;
     text-align:center;
     /* padding: 150px 0; */
@@ -26,7 +30,8 @@
 #homePageTitle{
     position: absolute;
     /* margin: 21.3% 0 0 28.3%; */
-    margin: auto;
+    /* margin: auto; */
+    margin: 0;
     width: 100%;
     text-align: center;
     /* padding: 175px 0; */
@@ -40,7 +45,8 @@
     position: absolute;
     /* bottom: 2%;
     left: 49%; */
-    margin: auto;
+    /* margin: auto; */
+    margin: 0;
     width: 100%;
     text-align: center;
     font-size: 5em;

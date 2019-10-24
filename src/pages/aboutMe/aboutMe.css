@@ -1,8 +1,20 @@
+/*Removing the White bar off the right side of the page */
+.row{
+    margin: 0;
+}
+
 .aboutMe{
     background-image: url("https://i.imgur.com/xsIqnig.jpg");
     background-size: 100%;
     box-shadow: inset 5px 0 10px #000000;
-    
+}
+.aboutMeCol{
+    padding: 0;
+}
+.aboutMeTitle{
+    text-align: center;
+    background-color: #ffffff;
+    height: 10rem;
 }
 
 .bufferZone{
