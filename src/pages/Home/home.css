@@ -24,7 +24,9 @@
     /* padding: 150px 0; */
     font-size: 9em;
     top: 30%;
-    text-shadow: 4px 3px 5px black;
+    text-shadow: 3px 2px 5px black;
+    /* font-family: 'Arvo', serif; */
+    font-family: 'Domine', serif;
 }
 
 #homePageTitle{
@@ -37,21 +39,22 @@
     /* padding: 175px 0; */
     font-size: 7em;
     top: 45%;
-    text-shadow: 4px 3px 5px black;
-
+    text-shadow: 3px 2px 5px black;
+    /* font-family: 'Arvo', serif; */
+    font-family: 'Domine', serif;
 }
 
-.homeNextPageButton{
+/* .homeNextPageButton{
     position: absolute;
-    /* bottom: 2%;
-    left: 49%; */
-    /* margin: auto; */
+    bottom: 2%;
+    left: 49%; 
+    margin: auto;
     margin: 0;
     width: 100%;
     text-align: center;
     font-size: 5em;
     top: 80%;
-    /* transform: rotate(90deg); */
+    transform: rotate(90deg);
     color: White;
     text-shadow: 4px 3px 5px black;
-}
+} */

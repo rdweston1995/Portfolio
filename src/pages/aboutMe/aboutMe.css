@@ -29,18 +29,32 @@
 .aboutMeText{
     text-align: center;
     /* background-color: #ffffff; */
-    background-color: #262626;
+    /* background-color: #262626; */
     color: #ffffff;
-    width: 100%;
-    margin: 15px 7.5px 15px 15px;
+    /* width: 100%; */
+    /* margin: 15px 7.5px 15px 15px; */
     float:left;
     font-size: 2rem;
     text-shadow: 4px 3px 5px black;
 }
 
+.aboutMeSection{
+    background-color: #262626;
+    width: 100%;
+    margin: 15px 7.5px 15px 15px;
+    float: left;
+}
+
+.profilePicture{
+    width: 26%;
+    height: 100%;
+    float: left;
+    margin: 10px;
+    border-radius: 5px;
+}
+
 .skillsTitle{
     text-align: center;
-    /* background-color: #ffffff; */
     background-color: #262626;
     color: #ffffff;
     width: 100%;

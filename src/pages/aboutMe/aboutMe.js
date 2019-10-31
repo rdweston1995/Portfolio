@@ -55,7 +55,11 @@ class aboutMe extends Component{
                 <Row className="aboutMeRow">
                 <h2 className="aboutMeTitle">About Me</h2>
                     <Col className="aboutMeCol">
-                        <p className="aboutMeText">About me About me</p>
+                        <div className="aboutMeSection">
+                            <img className="profilePicture" src="https://i.imgur.com/CbfJJZL.jpg" alt="The man the myth the legend"/>
+                            <p className="aboutMeText">About me About me</p>
+                        </div>
+                        
                     </Col>
 
                     <Col className="skillsCol">
