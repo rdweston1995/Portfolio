@@ -4,7 +4,7 @@ import Home from "./pages/Home/home";
 import AboutMe from "./pages/aboutMe/aboutMe";
 import Projects from "./pages/Projects/projects";
 
-class app extends Component {
+class App extends Component {
     render(){
         return (
             
@@ -22,4 +22,4 @@ class app extends Component {
     }
 }
 
-export default app;
+export default App;
