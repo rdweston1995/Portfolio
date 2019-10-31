@@ -1,21 +1,23 @@
 import React, { Component } from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Card from "./../../components/card";
+import "./projects.css";
 
-class Project extends Component{
+class Projects extends Component{
 
     render(){
         return(
-            <Row>
-                <Col>
-                    <Card>
+            <div className="Projects">
+                <Row className="projectsRow">
+                    <h2 className="title">Projects</h2>
+                    <Col className="projectsCol">
                         
-                    </Card>
-                </Col>
-            </Row>
+                    </Col>
+                </Row>
+            </div>
+            
         )
     }
 }
 
-export default Project;
+export default Projects;

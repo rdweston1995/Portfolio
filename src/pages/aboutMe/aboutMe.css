@@ -12,9 +12,8 @@
     padding: 0;
 }
 
-.aboutMeTitle{
+.title{
     text-align: center;
-    /* background-color: #ffffff; */
     background-color: #262626;
     color: #ffffff;
     height: 8rem;
@@ -23,7 +22,6 @@
     width: 100%;
     font-size: 4rem;
     text-shadow: 4px 3px 5px black;
-
 }
 
 .aboutMeText{

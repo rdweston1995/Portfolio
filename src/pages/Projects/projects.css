@@ -1,0 +1,11 @@
+.title{
+    text-align: center;
+    background-color: #262626;
+    color: #ffffff;
+    height: 8rem;
+    box-shadow: 5px 2.5px 10px #000000;
+    padding-top: 1.5rem;  
+    width: 100%;
+    font-size: 4rem;
+    text-shadow: 4px 3px 5px black;
+}
