@@ -9,6 +9,9 @@
     box-shadow: inset 5px 0 10px #000000;
 }
 .aboutMeCol{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
     padding: 0;
 }
 

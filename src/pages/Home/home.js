@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import { Redirect, useHistory } from "react-router-dom";
+import { Redirect } from "react-router-dom";
 import "./home.css";
 
 class home extends Component {
@@ -22,11 +22,11 @@ class home extends Component {
     }
     
     onClickChangePage = () => {
-        let history = useHistory();
+        // let history = useHistory();
         // return(
         //     <Redirect to="/aboutMe"/>
         // )
-        history.push("/aboutMe");
+        // history.push("/aboutMe");
     }
     render(){
         return (

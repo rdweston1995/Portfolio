@@ -1,3 +1,17 @@
+.projects{
+    /* background-image: url("https://i.imgur.com/ZZowTyX.jpg"); */
+    /* background-image: url("https://i.imgur.com/haBMi7g.jpg"); */
+    background-image: url("https://i.imgur.com/O1kQ6tK.jpg");
+    background-size: 100%;
+}
+
+.projectsCol{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
 .title{
     text-align: center;
     background-color: #262626;
@@ -8,4 +22,9 @@
     width: 100%;
     font-size: 4rem;
     text-shadow: 4px 3px 5px black;
+}
+
+.testing{
+    width: 50%;
+    background-color: #262626;
 }
