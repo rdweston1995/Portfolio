@@ -25,11 +25,6 @@ class Projects extends Component{
                                     />
                             )
                         })}
-                        {/* <Card 
-                            className="testing1"
-                            text="Test Test"    
-                        />
-                        <Card className="testing2"/> */}
                     </Col>
                 </Row>
             </div>  
