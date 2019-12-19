@@ -54,9 +54,17 @@
     border-radius: 5px;
 }
 
+/**
+*   Skills Sections
+*/
+
+.skillsCol {
+    padding: 0 15px 0 30px;
+}
+
 .skillsTitle{
     text-align: center;
-    background-color: #262626;
+    /* background-color: #262626; */
     color: #ffffff;
     width: 100%;
     margin: 15px 15px 15px 7.5px;
@@ -64,3 +72,17 @@
     text-shadow: 4px 3px 5px black;
 }
 
+.skillsDiv{
+    background-color: #262626;
+    padding: 0 0 15px 15px;
+}
+
+.skillsSubTitle {
+    color: #ffffff;
+    font-size: 2rem;
+}
+
+.languagesList, .databasesList, .toolsList {
+    color: #ffffff;
+    font-size: 1rem;
+}

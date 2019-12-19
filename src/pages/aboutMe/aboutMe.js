@@ -8,7 +8,7 @@ import "./aboutMe.css";
 class aboutMe extends Component {
     state = {
         languages: ['HTML', 'CSS', 'JavaScript', 'Java', 'Python', 'SQL'],
-        databases: ['MySQL', 'MongoDB'],
+        databases: ['MySQL', 'MongoDB', 'DynamoDB'],
         tools: ['Git/Github', 'Node', 'REST API\'s', 'aJax', 'jQuery', 'React']
     }
 
@@ -66,35 +66,43 @@ class aboutMe extends Component {
                     </Col>
 
                     <Col className="skillsCol">
-                        <h3 className="skillsTitle">Skills</h3>
-                        <h4 className="skillsSubTitle">Languages</h4>
-                        <ul className="languagesList">
-                            {this.state.languages.map(function (lang, i) {
-                                return (
-                                    <ListItem skill={lang} key={i} />
-                                )
-                            })}
-                        </ul>
-                        <h4 className="skillsSubTitle">Databases</h4>
-                        <ul className="databasesList">
-                            {this.state.databases.map(function (database, i) {
-                                return (
-                                    <ListItem skill={database} key={i} />
-                                )
-                            })}
-                        </ul>
-                        <h4 className="skillsSubTitle">Tools</h4>
-                        <ul className="toolsList">
-                            {this.state.tools.map(function (tool, i) {
-                                return (
-                                    <ListItem skill={tool} key={i} />
-                                )
-                            })}
-                        </ul>
+                        <div className="skillsDiv">
+                            <h3 className="skillsTitle">Skills</h3>
+                            <div className="skillsList">
+                            <h4 className="skillsSubTitle">Languages</h4>
+                            <ul className="languagesList">
+                                {this.state.languages.map(function (lang, i) {
+                                    return (
+                                        <ListItem skill={lang} key={i} />
+                                    )
+                                })}
+                            </ul>
+                            <h4 className="skillsSubTitle">Databases</h4>
+                            <ul className="databasesList">
+                                {this.state.databases.map(function (database, i) {
+                                    return (
+                                        <ListItem skill={database} key={i} />
+                                    )
+                                })}
+                            </ul>
+                            <h4 className="skillsSubTitle">Tools</h4>
+                            <ul className="toolsList">
+                                {this.state.tools.map(function (tool, i) {
+                                    return (
+                                        <ListItem skill={tool} key={i} />
+                                    )
+                                })}
+                            </ul>
+                            </div>
+                            <div className="skillsDetails">
+                                
+                            </div>
+                        </div>
+
                     </Col>
                 </Row>
                 {/* <Button variant="success" onClick={<Modal />}>Click me to see</Button> */}
-                <UseModal />
+                {/* <UseModal /> */}
                 {/* <OverlayTrigger trigger="click" placement="right" overlay={Popover}>
                     <Button variant="success">Click me to see</Button>
                 </OverlayTrigger> */}
