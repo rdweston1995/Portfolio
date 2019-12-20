@@ -2,14 +2,37 @@ import React, { Component } from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import ListItem from "./../../components/listItem";
-import UseModal from "./../../components/modal";
 import "./aboutMe.css";
 
 class aboutMe extends Component {
     state = {
         languages: ['HTML', 'CSS', 'JavaScript', 'Java', 'Python', 'SQL'],
         databases: ['MySQL', 'MongoDB', 'DynamoDB'],
-        tools: ['Git/Github', 'Node', 'REST API\'s', 'aJax', 'jQuery', 'React']
+        tools: ['Git/Github', 'Node', 'REST API\'s', 'aJax', 'jQuery', 'React'],
+        displaySkill : false,
+        displayedSkill : ""
+    }
+
+    skillOnClick = (e, skill) => {
+        console.log(skill);
+        this.setState(state => ({
+            displaySkill : true,
+            displayedSkill : skill
+        }));
+        this.changeSkillDetail(skill);
+
+    }
+
+    changeSkillDetail = (skill) => {
+        if(this.state.displayedSkill === ""){
+            console.log("nothing displayed");
+        } else {
+            console.log(this.state.displayedSkill);
+        }
+        console.log("Testing out what skill returns: " + JSON.stringify(skill));
+        return (
+            <p>{JSON.stringify(skill)}</p>
+        )
     }
 
     render() {
@@ -67,35 +90,39 @@ class aboutMe extends Component {
 
                     <Col className="skillsCol">
                         <div className="skillsDiv">
-                            <h3 className="skillsTitle">Skills</h3>
+                            <h3 className="skillsTitle" >Skills</h3>
                             <div className="skillsList">
-                            <h4 className="skillsSubTitle">Languages</h4>
-                            <ul className="languagesList">
-                                {this.state.languages.map(function (lang, i) {
-                                    return (
-                                        <ListItem skill={lang} key={i} />
-                                    )
-                                })}
-                            </ul>
-                            <h4 className="skillsSubTitle">Databases</h4>
-                            <ul className="databasesList">
-                                {this.state.databases.map(function (database, i) {
-                                    return (
-                                        <ListItem skill={database} key={i} />
-                                    )
-                                })}
-                            </ul>
-                            <h4 className="skillsSubTitle">Tools</h4>
-                            <ul className="toolsList">
-                                {this.state.tools.map(function (tool, i) {
-                                    return (
-                                        <ListItem skill={tool} key={i} />
-                                    )
-                                })}
-                            </ul>
+                                <h4 className="skillsSubTitle">Languages</h4>
+                                <ul className="languagesList">
+                                    {this.state.languages.map((lang, i) => {
+                                        return (
+                                            <ListItem skill={lang} key={i} onClick={((e) => this.skillOnClick(e, lang))} />
+                                        )
+                                    })}
+                                </ul>
+                                <h4 className="skillsSubTitle">Databases</h4>
+                                <ul className="databasesList">
+                                    {this.state.databases.map(function (database, i) {
+                                        return (
+                                            <ListItem skill={database} key={i} onClick={((e) => this.skillOnClick(e, database))} />
+                                        )
+                                    })}
+                                </ul>
+                                <h4 className="skillsSubTitle">Tools</h4>
+                                <ul className="toolsList">
+                                    {this.state.tools.map(function (tool, i) {
+                                        return (
+                                            <ListItem skill={tool} key={i} onClick={((e) => this.skillOnClick(e, tool))} />
+                                        )
+                                    })}
+                                </ul>
                             </div>
-                            <div className="skillsDetails">
-                                
+                            <div className="skillsDetails" onChange={this.changeSkillDetail}>
+                                <p>
+                                    {/* {this.state.displaySkill ? 'Yes' : 'No'} */}
+                                    {this.state.displayedSkill}
+                                </p>
+
                             </div>
                         </div>
 

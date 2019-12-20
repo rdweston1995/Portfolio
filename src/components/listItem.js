@@ -2,7 +2,7 @@ import React from "react"
 
 function ListItem(props){
     return(
-        <li className="skillListItem">{props.skill}</li>
+        <li className="skillListItem" value={props.skill} onClick={props.onClick}>{props.skill}</li>
     )
 }
 

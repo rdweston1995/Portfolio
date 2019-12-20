@@ -22,6 +22,7 @@ class Projects extends Component{
                                     website={project.website}
                                     github={project.github}
                                     image={project.image}
+                                    key={project.key}
                                     />
                             )
                         })}
