@@ -2,5 +2,47 @@
     {
         "skill" : "HTML",
         "detail" : "testtesttest"
+    }, {
+        "skill" : "CSS",
+        "detail" : ""
+    }, {
+        "skill" : "JavaScript",
+        "detail" : ""
+    }, {
+        "skill" : "Java",
+        "detail" : ""
+    }, {
+        "skill" : "Python",
+        "detail" : ""
+    }, {
+        "skill" : "SQL",
+        "detail" : ""
+    }, {
+        "skill" : "MySQL",
+        "detail" : ""
+    }, {
+        "skill" : "MongoDB",
+        "detail" : ""
+    }, {
+        "skill" : "DynamoDB",
+        "detail" : ""
+    }, {
+        "skill" : "Git/Github",
+        "detail" : ""
+    }, {
+        "skill" : "Node",
+        "detail" : ""
+    }, {
+        "skill" : "REST API's",
+        "detail" : ""
+    }, {
+        "skill" : "aJax",
+        "detail" : ""
+    }, {
+        "skill" : "jQuery",
+        "detail" : ""
+    }, {
+        "skill" : "React",
+        "detail" : ""
     }
 ]

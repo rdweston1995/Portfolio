@@ -15,7 +15,6 @@ class aboutMe extends Component {
 
     skillOnClick = (e, clickedSkill) => {
         let foundSkill = skillsJSON.filter(skill => skill.skill === clickedSkill)
-        console.log(foundSkill[0].detail);
         this.setState(state => ({
             displayedSkill : foundSkill[0].detail
         }));
