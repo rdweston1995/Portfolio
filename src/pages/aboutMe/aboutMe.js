@@ -3,6 +3,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import ListItem from "./../../components/listItem";
 import skillsJSON from "./../../skills.json";
+import aboutMeText from "./../../aboutMe.txt";
 import "./aboutMe.css";
 
 class aboutMe extends Component {
@@ -15,6 +16,7 @@ class aboutMe extends Component {
 
     skillOnClick = (e, clickedSkill) => {
         let foundSkill = skillsJSON.filter(skill => skill.skill === clickedSkill)
+
         this.setState(state => ({
             displayedSkill : foundSkill[0].detail
         }));
@@ -29,7 +31,7 @@ class aboutMe extends Component {
                     <Col className="aboutMeCol">
                         <div className="aboutMeSection">
                             <img className="profilePicture" src="https://i.imgur.com/CbfJJZL.jpg" alt="The man the myth the legend" />
-                            <p className="aboutMeText" data-toggle="tooltip" data-placement="top" title="tooltip on top">About me About me</p>
+                            <p className="aboutMeText" data-toggle="tooltip" data-placement="top" title="tooltip on top">About me</p>
                         </div>
                     </Col>
 
@@ -47,7 +49,7 @@ class aboutMe extends Component {
                                 </ul>
                                 <h4 className="skillsSubTitle">Databases</h4>
                                 <ul className="databasesList">
-                                    {this.state.databases.map(function (database, i) {
+                                    {this.state.databases.map((database, i) => {
                                         return (
                                             <ListItem skill={database} key={i} onClick={((e) => this.skillOnClick(e, database))} />
                                         )
@@ -55,7 +57,7 @@ class aboutMe extends Component {
                                 </ul>
                                 <h4 className="skillsSubTitle">Tools</h4>
                                 <ul className="toolsList">
-                                    {this.state.tools.map(function (tool, i) {
+                                    {this.state.tools.map((tool, i) => {
                                         return (
                                             <ListItem skill={tool} key={i} onClick={((e) => this.skillOnClick(e, tool))} />
                                         )

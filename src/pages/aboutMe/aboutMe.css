@@ -85,10 +85,11 @@
 .languagesList, .databasesList, .toolsList {
     color: #ffffff;
     font-size: 1rem;
+    cursor: default;
 }
 
 .skillsList {
-    background-color: #000000;
+    background-color: #404040;
     width: 25%;
     display: inline-block;
 }
@@ -96,8 +97,7 @@
 .skillsDetails {
     background-color: #ffffff;
     width: 70%;
-    height: 50px;
+    height: 100%;
     float:right;
-    display: inline-block;
     margin: 0 15px 15px 0;
 }

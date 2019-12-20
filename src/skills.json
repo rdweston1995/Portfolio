@@ -4,45 +4,45 @@
         "detail" : "testtesttest"
     }, {
         "skill" : "CSS",
-        "detail" : ""
+        "detail" : "test"
     }, {
         "skill" : "JavaScript",
-        "detail" : ""
+        "detail" : "test"
     }, {
         "skill" : "Java",
-        "detail" : ""
+        "detail" : "test"
     }, {
         "skill" : "Python",
-        "detail" : ""
+        "detail" : "test"
     }, {
         "skill" : "SQL",
-        "detail" : ""
+        "detail" : "test"
     }, {
         "skill" : "MySQL",
-        "detail" : ""
+        "detail" : "test"
     }, {
         "skill" : "MongoDB",
-        "detail" : ""
+        "detail" : "test"
     }, {
         "skill" : "DynamoDB",
-        "detail" : ""
+        "detail" : "test"
     }, {
         "skill" : "Git/Github",
-        "detail" : ""
+        "detail" : "test"
     }, {
         "skill" : "Node",
-        "detail" : ""
+        "detail" : "test"
     }, {
         "skill" : "REST API's",
-        "detail" : ""
+        "detail" : "test"
     }, {
         "skill" : "aJax",
-        "detail" : ""
+        "detail" : "test"
     }, {
         "skill" : "jQuery",
-        "detail" : ""
+        "detail" : "test"
     }, {
         "skill" : "React",
-        "detail" : ""
+        "detail" : "test"
     }
 ]
