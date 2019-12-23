@@ -3,7 +3,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import ListItem from "./../../components/listItem";
 import skillsJSON from "./../../skills.json";
-import aboutMeText from "./../../aboutMe.txt";
+// import aboutMeText from "./../../aboutMe.txt";
 import "./aboutMe.css";
 
 class aboutMe extends Component {
