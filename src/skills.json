@@ -1,48 +1,48 @@
 [
     {
         "skill" : "HTML",
-        "detail" : "testtesttest"
+        "detail" : "This is what I know about HTML"
     }, {
         "skill" : "CSS",
-        "detail" : "test"
+        "detail" : "CSS"
     }, {
         "skill" : "JavaScript",
-        "detail" : "test"
+        "detail" : "JavaScript"
     }, {
         "skill" : "Java",
-        "detail" : "test"
+        "detail" : "Java"
     }, {
         "skill" : "Python",
-        "detail" : "test"
+        "detail" : "Python"
     }, {
         "skill" : "SQL",
-        "detail" : "test"
+        "detail" : "SQL"
     }, {
         "skill" : "MySQL",
-        "detail" : "test"
+        "detail" : "MySQL"
     }, {
         "skill" : "MongoDB",
-        "detail" : "test"
+        "detail" : "MongoDB"
     }, {
         "skill" : "DynamoDB",
-        "detail" : "test"
+        "detail" : "DynamoDB"
     }, {
         "skill" : "Git/Github",
-        "detail" : "test"
+        "detail" : "Git/Github"
     }, {
         "skill" : "Node",
-        "detail" : "test"
+        "detail" : "Node"
     }, {
         "skill" : "REST API's",
-        "detail" : "test"
+        "detail" : "REST API's"
     }, {
         "skill" : "aJax",
-        "detail" : "test"
+        "detail" : "aJax"
     }, {
         "skill" : "jQuery",
-        "detail" : "test"
+        "detail" : "jQuery"
     }, {
         "skill" : "React",
-        "detail" : "test"
+        "detail" : "React"
     }
 ]
