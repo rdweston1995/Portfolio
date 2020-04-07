@@ -23,7 +23,7 @@ class Projects extends Component{
                                     github={project.github}
                                     image={project.image}
                                     key={project.key}
-                                    />
+                                />
                             )
                         })}
                     </Col>
