@@ -88,6 +88,10 @@
     cursor: default;
 }
 
+.aboutMeText {
+    float : left;
+}
+
 .skillsList {
     background-color: #404040;
     width: 25%;

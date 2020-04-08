@@ -23,17 +23,6 @@ class aboutMe extends Component {
         }));
     }
 
-    loadAboutMeText = () => {
-        let fr = new FileReader();
-        fr.onload = function() {
-            document.getElementById('aboutMeId').textContent = this.result;
-        };
-    }
-
-    componentDidMount = () => {
-        // fetch('./../../aboutMe.txt').then((r) => r.text()).then(text => {console.log(text);});
-    }
-
     render() {
         return (
 
