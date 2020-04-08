@@ -22,6 +22,14 @@ class aboutMe extends Component {
         }));
     }
 
+    loadAboutMeText = () => {
+        let fr = new FileReader();
+        fr.onload = function() {
+            document.getElementById('aboutMeId').textContent = this.result;
+        };
+        
+    }
+
     render() {
         return (
 
@@ -31,7 +39,7 @@ class aboutMe extends Component {
                     <Col className="aboutMeCol">
                         <div className="aboutMeSection">
                             <img className="profilePicture" src="https://i.imgur.com/CbfJJZL.jpg" alt="The man the myth the legend" />
-                            <p className="aboutMeText" data-toggle="tooltip" data-placement="top" title="tooltip on top">About me</p>
+                            <p className="aboutMeText" id="aboutMeId" data-toggle="tooltip" data-placement="top" title="tooltip on top">About me</p>
                         </div>
                     </Col>
 
