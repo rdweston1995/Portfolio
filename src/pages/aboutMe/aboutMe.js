@@ -4,7 +4,6 @@ import Col from "react-bootstrap/Col";
 import ListItem from "./../../components/listItem";
 import skillsJSON from "./../../skills.json";
 import aboutMeJSON from "./../../aboutMe.json";
-// import aboutMeText from "./../../aboutMe.txt";
 import "./aboutMe.css";
 
 class aboutMe extends Component {

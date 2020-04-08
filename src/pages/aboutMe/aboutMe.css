@@ -28,15 +28,10 @@
 }
 
 .aboutMeText{
-    text-align: center;
-    /* background-color: #ffffff; */
-    /* background-color: #262626; */
     color: #ffffff;
-    /* width: 100%; */
-    /* margin: 15px 7.5px 15px 15px; */
-    float:left;
     font-size: 2rem;
     text-shadow: 4px 3px 5px black;
+    margin: 5px;
 }
 
 .aboutMeSection{
@@ -86,10 +81,6 @@
     color: #ffffff;
     font-size: 1rem;
     cursor: default;
-}
-
-.aboutMeText {
-    float : left;
 }
 
 .skillsList {
