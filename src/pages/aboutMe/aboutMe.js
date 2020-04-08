@@ -3,6 +3,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import ListItem from "./../../components/listItem";
 import skillsJSON from "./../../skills.json";
+import aboutMeJSON from "./../../aboutMe.json";
 // import aboutMeText from "./../../aboutMe.txt";
 import "./aboutMe.css";
 
@@ -30,14 +31,7 @@ class aboutMe extends Component {
     }
 
     componentDidMount = () => {
-        let fr = new FileReader();
-        fr.onload = function(e) {
-            // document.getElementById('aboutMeId').textContent = this.result;
-            let aboutMe = document.getElementById('aboutMeId');
-            aboutMe.innerText = fr.result;
-        }
-
-        fr.readAsText('./../../aboutMe.txt');
+        // fetch('./../../aboutMe.txt').then((r) => r.text()).then(text => {console.log(text);});
     }
 
     render() {
@@ -49,7 +43,7 @@ class aboutMe extends Component {
                     <Col className="aboutMeCol">
                         <div className="aboutMeSection">
                             <img className="profilePicture" src="https://i.imgur.com/CbfJJZL.jpg" alt="The man the myth the legend" />
-                            <p className="aboutMeText" id="aboutMeId" data-toggle="tooltip" data-placement="top" title="tooltip on top"></p>
+                            <p className="aboutMeText" id="aboutMeId" data-toggle="tooltip" data-placement="top" title="tooltip on top">{aboutMeJSON}</p>
                         </div>
                     </Col>
 
