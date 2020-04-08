@@ -27,7 +27,17 @@ class aboutMe extends Component {
         fr.onload = function() {
             document.getElementById('aboutMeId').textContent = this.result;
         };
-        
+    }
+
+    componentDidMount = () => {
+        let fr = new FileReader();
+        fr.onload = function(e) {
+            // document.getElementById('aboutMeId').textContent = this.result;
+            let aboutMe = document.getElementById('aboutMeId');
+            aboutMe.innerText = fr.result;
+        }
+
+        fr.readAsText('./../../aboutMe.txt');
     }
 
     render() {
@@ -39,7 +49,7 @@ class aboutMe extends Component {
                     <Col className="aboutMeCol">
                         <div className="aboutMeSection">
                             <img className="profilePicture" src="https://i.imgur.com/CbfJJZL.jpg" alt="The man the myth the legend" />
-                            <p className="aboutMeText" id="aboutMeId" data-toggle="tooltip" data-placement="top" title="tooltip on top">About me</p>
+                            <p className="aboutMeText" id="aboutMeId" data-toggle="tooltip" data-placement="top" title="tooltip on top"></p>
                         </div>
                     </Col>
 
