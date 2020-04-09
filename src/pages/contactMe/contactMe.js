@@ -5,7 +5,13 @@ import "./contactMe.css";
 
 class ContactMe extends Component {
     onSubmit = () => {
-        console.log(document.getElementById('email').textContent);
+        // console.log(document.getElementById('email').textContent);
+        console.log(document.getElementById('email').value);
+        console.log(document.getElementById('name').value);
+        console.log(document.getElementById('message').value);
+        document.getElementById('email').value = "";
+        document.getElementById('name').value = "";
+        document.getElementById('message').value = "";
     }
     render() {
         return(
