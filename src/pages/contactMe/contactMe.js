@@ -5,7 +5,6 @@ import "./contactMe.css";
 
 class ContactMe extends Component {
     onSubmit = () => {
-        // console.log(document.getElementById('email').textContent);
         console.log(document.getElementById('email').value);
         console.log(document.getElementById('name').value);
         console.log(document.getElementById('message').value);
@@ -13,6 +12,7 @@ class ContactMe extends Component {
         document.getElementById('name').value = "";
         document.getElementById('message').value = "";
     }
+    
     render() {
         return(
             <div className="contactMe">
