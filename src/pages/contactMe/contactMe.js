@@ -4,6 +4,9 @@ import Col from "react-bootstrap/Col";
 import "./contactMe.css";
 
 class ContactMe extends Component {
+    onSubmit = () => {
+        console.log(document.getElementById('email').textContent);
+    }
     render() {
         return(
             <div className="contactMe">
@@ -11,12 +14,13 @@ class ContactMe extends Component {
                     <h2 className="title">Contact Me</h2>
                     <Col className="contactCol">
                         <form>
-                            <label for="email">Email:</label>
+                            <label htmlFor="email">Email:</label>
                             <input type="text" id="email" name="email"/>
-                            <label for="name">Name: </label> 
+                            <label htmlFor="name">Name: </label> 
                             <input type="text" id="name" name="name"/>
-                            <label for="message">Message:</label>
+                            <label htmlFor="message">Message:</label>
                             <input type="text" id="message" name="message"/>
+                            <button className="contactSubmitBtn" type="button" onClick={((e) => this.onSubmit())}>Send</button>
                         </form>
                     </Col>
                 </Row>
