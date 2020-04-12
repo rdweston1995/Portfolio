@@ -1,7 +1,6 @@
 {
   "name": "portfolio",
   "version": "2.0.1",
-  "description": "Personal Portfolio",
   "private": true,
   "scripts": {
     "start": "react-scripts start",
@@ -16,16 +15,8 @@
     "type": "git",
     "url": "git+https://github.com/rdweston1995/Portfolio.git"
   },
-  "keywords": [
-    "Portfolio",
-    "React"
-  ],
   "author": "rdweston1995",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rdweston1995/Portfolio/issues"
-  },
-  "homepage": "https://github.com/rdweston1995/Portfolio#readme",
   "dependencies": {
     "react": "^16.9.0",
     "react-bootstrap": "^1.0.0-beta.12",
