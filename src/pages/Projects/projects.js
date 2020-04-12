@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "./../../components/card";
-import projectsJson from "./../../../src/projects.json";
+import projectsJson from "./../../json/projects.json";
 import "./projects.css";
 
 class Projects extends Component{

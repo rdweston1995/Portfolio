@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import ListItem from "./../../components/listItem";
-import skillsJSON from "./../../skills.json";
-import aboutMeJSON from "./../../aboutMe.json";
+import skillsJSON from "./../../json/skills.json";
+import aboutMeJSON from "./../../json/aboutMe.json";
 import "./aboutMe.css";
 
 class aboutMe extends Component {
