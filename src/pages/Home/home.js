@@ -1,7 +1,10 @@
+//Node imports
 import React, { Component } from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { Redirect } from "react-router-dom";
+
+//CSS
 import "./home.css";
 
 class home extends Component {
@@ -33,9 +36,7 @@ class home extends Component {
             <Row className="homePage">
                 <Col className="homePageCol">
                     <h1 id="homePageName">Robert Weston</h1>
-                    <h2 id="homePageTitle">Full Stack Web Developer</h2>
-                    
-                    {/* <div className="homeNextPageButton" onClick={this.setRedirect}>{this.renderRedirect()} Lets get to know each other</div> */}
+                    <h2 id="homePageTitle">Full Stack Web Developer</h2>                    
                 </Col>
             </Row>
         )
