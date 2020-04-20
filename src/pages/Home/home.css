@@ -3,7 +3,6 @@
     background-size: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: 0;
-    /* z-index: 5; */
 }
 
 .homePageCol{
@@ -15,15 +14,11 @@
 
 #homePageName{
     position: absolute;
-    /* margin: 15.3% 0 0 33.3%; */
-    /* text-align:center; */
-    /* margin:auto; */
     margin: 0;
     width: 100%;
     text-align:center;
-    /* padding: 150px 0; */
-    font-size: 9em;
-    top: 30%;
+    font-size: 6em;
+    top: 20%;
     text-shadow: 3px 2px 5px black;
     /* font-family: 'Arvo', serif; */
     font-family: 'Domine', serif;
@@ -31,30 +26,12 @@
 
 #homePageTitle{
     position: absolute;
-    /* margin: 21.3% 0 0 28.3%; */
-    /* margin: auto; */
     margin: 0;
     width: 100%;
     text-align: center;
-    /* padding: 175px 0; */
-    font-size: 7em;
-    top: 45%;
+    font-size: 6em;
+    top: 35%;
     text-shadow: 3px 2px 5px black;
     /* font-family: 'Arvo', serif; */
     font-family: 'Domine', serif;
 }
-
-/* .homeNextPageButton{
-    position: absolute;
-    bottom: 2%;
-    left: 49%; 
-    margin: auto;
-    margin: 0;
-    width: 100%;
-    text-align: center;
-    font-size: 5em;
-    top: 80%;
-    transform: rotate(90deg);
-    color: White;
-    text-shadow: 4px 3px 5px black;
-} */

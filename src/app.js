@@ -6,7 +6,7 @@ import './app.css';
 import Home from "./pages/Home/home";
 import AboutMe from "./pages/aboutMe/aboutMe";
 import Projects from "./pages/Projects/projects";
-import ContactMe from "./pages/contactMe/contactMe";
+// import ContactMe from "./pages/contactMe/contactMe";
 
 class App extends React.Component {
     render(){
@@ -16,7 +16,7 @@ class App extends React.Component {
                 <Home />
                 <AboutMe />
                 <Projects />
-                <ContactMe />
+                {/* <ContactMe /> */}
                 {/* <Switch>
                     <Route exact path="/home" component={Home} />
                     <Route exact path="/aboutMe" component={AboutMe} />
