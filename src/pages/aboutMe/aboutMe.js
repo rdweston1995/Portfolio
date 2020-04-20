@@ -1,9 +1,15 @@
+//Node imports
 import React, { Component } from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+
+//Components and JSON
 import ListItem from "../../components/listItem/listItem";
 import skillsJSON from "./../../json/skills.json";
 import aboutMeJSON from "./../../json/aboutMe.json";
+import SubHeading from "./../../components/subHeading/subHeading";
+
+//CSS
 import "./aboutMe.css";
 
 class aboutMe extends Component {
@@ -27,7 +33,8 @@ class aboutMe extends Component {
 
             <div className="aboutMe">
                 <Row className="aboutMeRow">
-                    <h2 className="title" id="aboutMeTitle">About Me</h2>
+                    {/* <h2 className="title" id="aboutMeTitle">About Me</h2> */}
+                    <SubHeading id="aboutMeHeading" heading="About Me"/>
                     <Col className="aboutMeCol">
                         <div className="aboutMeSection">
                             <img className="profilePicture" src="https://i.imgur.com/CbfJJZL.jpg" alt="The man the myth the legend" />
