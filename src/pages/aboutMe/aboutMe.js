@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import ListItem from "./../../components/listItem";
+import ListItem from "../../components/listItem/listItem";
 import skillsJSON from "./../../json/skills.json";
 import aboutMeJSON from "./../../json/aboutMe.json";
 import "./aboutMe.css";

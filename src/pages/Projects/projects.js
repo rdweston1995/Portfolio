@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Card from "./../../components/card";
+import Card from "./../../components/card/card";
 import projectsJson from "./../../json/projects.json";
 import "./projects.css";
 
