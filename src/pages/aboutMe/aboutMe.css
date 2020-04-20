@@ -4,7 +4,8 @@
 }
 
 .aboutMe{
-    background-image: url("https://i.imgur.com/xsIqnig.jpg");
+    /* background-image: url("https://i.imgur.com/xsIqnig.jpg"); */
+    background-color: #454746;
     background-size: 100%;
     box-shadow: inset 5px 0 10px #000000;
 }
@@ -17,12 +18,13 @@
 
 .aboutMeText{
     color: #ffffff;
-    font-size: 2rem;
+    font-size: 1.75em;
     text-shadow: 4px 3px 5px black;
     margin: 5px;
 }
 
 .aboutMeSection{
+    border-radius: 3px;
     background-color: #262626;
     width: 100%;
     margin: 15px 7.5px 15px 15px;
@@ -57,7 +59,8 @@
 
 .skillsDiv{
     background-color: #262626;
-    padding: 0 0 15px 15px;    
+    padding: 0 0 15px 15px; 
+    border-radius: 3px;   
 }
 
 .skillsSubTitle {
