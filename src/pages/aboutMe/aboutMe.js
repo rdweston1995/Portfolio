@@ -33,7 +33,6 @@ class aboutMe extends Component {
 
             <div className="aboutMe">
                 <Row className="aboutMeRow">
-                    {/* <h2 className="title" id="aboutMeTitle">About Me</h2> */}
                     <SubHeading id="aboutMeHeading" heading="About Me"/>
                     <Col className="aboutMeCol">
                         <div className="aboutMeSection">

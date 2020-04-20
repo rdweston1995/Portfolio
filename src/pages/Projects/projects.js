@@ -1,8 +1,14 @@
+//Node Imports
 import React, { Component } from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+
+//Components and JSON
 import Card from "./../../components/card/card";
 import projectsJson from "./../../json/projects.json";
+import SubHeading from "./../../components/subHeading/subHeading";
+
+//CSS
 import "./projects.css";
 
 class Projects extends Component{
@@ -11,7 +17,7 @@ class Projects extends Component{
         return(
             <div className="projects">
                 <Row className="projectsRow">
-                    <h2 className="title">Projects</h2>
+                    <SubHeading id="projectsHeading" heading="Projects" />
                     <Col className="projectsCol">
                         {projectsJson.map(function(project, i) {
                             return (
