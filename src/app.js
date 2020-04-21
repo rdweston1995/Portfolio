@@ -6,6 +6,7 @@ import './app.css';
 import Home from "./pages/Home/home";
 import AboutMe from "./pages/aboutMe/aboutMe";
 import Projects from "./pages/Projects/projects";
+import WorkExperience from "./pages/workExperience/workExperience";
 // import ContactMe from "./pages/contactMe/contactMe";
 
 class App extends React.Component {
@@ -16,6 +17,7 @@ class App extends React.Component {
                 <Home />
                 <AboutMe />
                 <Projects />
+                <WorkExperience />
                 {/* <ContactMe /> */}
                 {/* <Switch>
                     <Route exact path="/home" component={Home} />
