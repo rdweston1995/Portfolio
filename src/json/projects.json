@@ -6,6 +6,13 @@
         "image" : "https://i.imgur.com/2BVW0Af.jpg",
         "github" : "https://github.com/rdweston1995/JustDuet",
         "key" : 1
+    },{
+        "title" : "Hiking App",
+        "website" : "",
+        "text" : "Hiking App",
+        "image" : "",
+        "github" : "https://github.com/rdweston1995/HikingApp",
+        "key" : 2
     }
 ]
     
