@@ -15,7 +15,10 @@ class workExperience extends React.Component {
             <div className="workExperience">
                 <Row id="workExperienceRow">
                     <SubHeading id="workExperienceHeading" heading="Work Experience" />
-                    <WorkExpCard />
+                    <WorkExpCard 
+                        companyName="testCompany"
+                        jobTitle="testJobTitle"
+                        summary="testSummary"/>
                 </Row>
             </div>
         )

@@ -5,12 +5,12 @@ import Card from "react-bootstrap/Card";
 //CSS
 import "./weCard.css";
 
-function weCard () {
+function weCard (props) {
     return(
         <Card id="workExpCard">
-            <h2>Company Name</h2>
-            <h3>Job Title</h3>
-            <p>Summary of job responsibilities</p>
+            <h2>{props.companyName}</h2>
+            <h3>{props.jobTitle}</h3>
+            <p>{props.summary}</p>
         </Card>
     );
 }
