@@ -2,8 +2,9 @@
 import React from "react";
 import Row from "react-bootstrap/Row";
 
-//Components
+//Components and JSON
 import SubHeading from "./../../components/subHeading/subHeading";
+import WorkExpCard from "./../../components/weCard/weCard";
 
 //CSS
 import "./workExperience.css";
@@ -14,6 +15,7 @@ class workExperience extends React.Component {
             <div className="workExperience">
                 <Row id="workExperienceRow">
                     <SubHeading id="workExperienceHeading" heading="Work Experience" />
+                    <WorkExpCard />
                 </Row>
             </div>
         )
