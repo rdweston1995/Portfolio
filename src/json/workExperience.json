@@ -1,0 +1,10 @@
+[
+    {
+        "company" : "Eat Drink Home",
+        "title" : "Software Developer",
+        "summary" : "Building and automating backend microservices. Using JavaScript, Node, AWS DynamoDB and AWS Lambda",
+        "start" : "October 2019",
+        "end" : "",
+        "key" : 1
+    }
+]

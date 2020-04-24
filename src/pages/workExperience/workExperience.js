@@ -5,6 +5,7 @@ import Row from "react-bootstrap/Row";
 //Components and JSON
 import SubHeading from "./../../components/subHeading/subHeading";
 import WorkExpCard from "./../../components/weCard/weCard";
+import workJSON from "./../../json/workExperience.json";
 
 //CSS
 import "./workExperience.css";
@@ -15,10 +16,18 @@ class workExperience extends React.Component {
             <div className="workExperience">
                 <Row id="workExperienceRow">
                     <SubHeading id="workExperienceHeading" heading="Work Experience" />
-                    <WorkExpCard 
-                        companyName="testCompany"
-                        jobTitle="testJobTitle"
-                        summary="testSummary"/>
+                    {workJSON.map(function(work, i) {
+                        return (
+                            <WorkExpCard
+                                companyName={work.company}
+                                jobTitle={work.title}
+                                summary={work.summary}
+                                start={work.start}
+                                end={work.end}
+                                key={work.key}
+                            />
+                        )
+                    })}
                 </Row>
             </div>
         )

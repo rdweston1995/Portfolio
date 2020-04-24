@@ -10,6 +10,7 @@ function weCard (props) {
         <Card id="workExpCard">
             <h2>{props.companyName}</h2>
             <h3>{props.jobTitle}</h3>
+            <p>{props.start}  -  {props.end}</p>
             <p>{props.summary}</p>
         </Card>
     );
