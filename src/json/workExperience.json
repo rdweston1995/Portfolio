@@ -2,7 +2,7 @@
     {
         "company" : "Eat Drink Home",
         "title" : "Software Developer",
-        "summary" : "Building and automating backend microservices. Using JavaScript, Node, AWS DynamoDB and AWS Lambda",
+        "summary" : "Developing and automating backend microservices. Developing a RESTful API to parse addresses pulled from a AWS Database to fit into the USPS standard form. Debugging live software systems with Mocha and Chai. Using AWS Lambda to host microservices",
         "start" : "October 2019",
         "end" : "",
         "key" : 1
