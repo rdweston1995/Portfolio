@@ -8,10 +8,10 @@ import "./weCard.css";
 function weCard (props) {
     return(
         <Card id="workExpCard">
-            <h2>{props.companyName}</h2>
-            <h3>{props.jobTitle}</h3>
-            <p>{props.start}  -  {props.end}</p>
-            <p>{props.summary}</p>
+            <h2 id="workExpCompany">{props.companyName}</h2>
+            <h3 id="workExpTitle">{props.jobTitle}</h3>
+            <p id="workExpDuration">{props.start}  -  {props.end}</p>
+            <p id="workExpSummary">{props.summary}</p>
         </Card>
     );
 }
