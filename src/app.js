@@ -15,8 +15,8 @@ class App extends React.Component {
             <div className="app">
                 <Home />
                 <AboutMe />
-                <Projects />
                 <WorkExperience />
+                <Projects />
             </div>
             
             // <Router>
