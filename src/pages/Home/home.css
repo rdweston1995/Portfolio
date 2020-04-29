@@ -35,3 +35,20 @@
     /* font-family: 'Arvo', serif; */
     font-family: 'Domine', serif;
 }
+
+@media screen and (max-width: 480px){
+    .homePage{
+        /* background-image: url(""); */
+        /* background-color: #262626; */
+    }
+    
+    #homePageName {
+        font-size: 4em;
+        top: 10%;
+    }
+
+    #homePageTitle {
+        font-size: 3.5em;
+        top: 50%;
+    }
+}

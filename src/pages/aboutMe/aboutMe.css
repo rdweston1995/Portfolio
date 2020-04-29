@@ -93,3 +93,16 @@
     font-size: 2rem;
     margin: 0 0 0 15px;
 }
+
+@media screen and (max-width: 480px){
+    .aboutMeCol {
+        height: 100%;
+    }
+    .aboutMeSection{
+        width: 320px;
+    }
+
+    .aboutMeText {
+        font-size: 1.5em;
+    }
+}
