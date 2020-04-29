@@ -8,17 +8,17 @@
 }
 
 #workExpCompany{
-    font-size: 30px;
+    font-size: 3rem;
 }
 
 #workExpTitle {
-    font-size: 25px;
+    font-size: 2rem;
 }
 
 #workExpDuration {
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 #workExpSummary {
-    font-size: 20px;
+    font-size: 1.5rem;
 }
