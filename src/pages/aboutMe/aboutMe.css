@@ -100,9 +100,20 @@
     }
     .aboutMeSection{
         width: 320px;
+        margin: 10px 0 0 15px;
     }
 
     .aboutMeText {
         font-size: 1.5em;
+    }
+
+    .skillsCol {
+        padding: 0;
+    }
+
+    .skillsDiv {
+        width: 320px;
+        /* margin: 0 0 15px 0; */
+        margin: 0 15px 0 15px;
     }
 }
