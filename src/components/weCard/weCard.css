@@ -22,3 +22,10 @@
 #workExpSummary {
     font-size: 1.5rem;
 }
+
+@media screen and (max-width: 480px) {
+    #workExpCard {
+        width: 90%;
+        margin: 10px 15px 15px 15px;
+    }
+}
