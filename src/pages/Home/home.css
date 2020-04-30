@@ -38,17 +38,18 @@
 
 @media screen and (max-width: 480px){
     .homePage{
-        /* background-image: url(""); */
-        /* background-color: #262626; */
+        background-image: url("./../../images/DSC_0839.JPG");
     }
     
     #homePageName {
         font-size: 4em;
         top: 10%;
+        color: #ffffff;
     }
 
     #homePageTitle {
         font-size: 3.5em;
         top: 50%;
+        color: #ffffff;
     }
 }
