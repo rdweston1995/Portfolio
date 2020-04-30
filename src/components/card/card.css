@@ -38,3 +38,10 @@
     border-color: transparent;
     margin: 7.5px;
 }
+
+@media screen and (max-width: 480px) {
+    #projectCard {
+        width: 90%;
+        /* height: 850px; */
+    }
+}
