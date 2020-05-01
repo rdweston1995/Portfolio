@@ -93,7 +93,7 @@
 }
 
 @media screen and (max-width: 480px){
-    .aboutMeCol {
+    .aboutMeDiv {
         height: 100%;
     }
     .aboutMeSection{
