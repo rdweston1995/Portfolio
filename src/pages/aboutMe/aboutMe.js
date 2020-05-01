@@ -43,7 +43,7 @@ class aboutMe extends Component {
                 
                 <Row className="skillsDiv">
                         <h3 className="skillsTitle" >Skills</h3>
-                        <Col>
+                        <Col className="skillsCol">
                             <h4 className="skillsSubTitle">Languages</h4>
                             <ul className="languagesList">
                                 {this.state.languages.map((lang, i) => {
@@ -53,7 +53,7 @@ class aboutMe extends Component {
                                 })}
                             </ul>
                         </Col>
-                        <Col>
+                        <Col className="skillsCol">
                             <h4 className="skillsSubTitle">Databases</h4>
                             <ul className="databasesList">
                                 {this.state.databases.map((database, i) => {
@@ -63,7 +63,7 @@ class aboutMe extends Component {
                                 })}
                             </ul>
                         </Col>
-                        <Col>
+                        <Col className="skillsCol">
                             <h4 className="skillsSubTitle">Tools</h4>
                             <ul className="toolsList">
                                 {this.state.tools.map((tool, i) => {
