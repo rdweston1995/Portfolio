@@ -34,13 +34,13 @@ class aboutMe extends Component {
             <div className="aboutMe">
                 <Row className="aboutMeRow">
                     <SubHeading id="aboutMeHeading" heading="About Me"/>
-                    <Col className="aboutMeCol">
-                        <div className="aboutMeSection">
+                    
+                        <div className="aboutMeDiv">
                             <img className="profilePicture" src="https://i.imgur.com/CbfJJZL.jpg" alt="The man the myth the legend" />
                             <p className="aboutMeText" id="aboutMeId" data-toggle="tooltip" data-placement="top" title="tooltip on top">{aboutMeJSON.text}</p>
                         </div>
-                    </Col>
-
+                    
+                    
                     <Col className="skillsCol">
                         <div className="skillsDiv">
                             <h3 className="skillsTitle" >Skills</h3>
@@ -77,8 +77,8 @@ class aboutMe extends Component {
 
                             </div>
                         </div>
-
                     </Col>
+                    
                 </Row>
             </div>
         )
