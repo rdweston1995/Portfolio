@@ -41,7 +41,7 @@ class aboutMe extends Component {
                     </div>
                 </Row>
                 
-                <Row className="skillsDiv">
+                <Row className="skillsRow">
                         <h3 className="skillsTitle" >Skills</h3>
                         <Col className="skillsCol">
                             <h4 className="skillsSubTitle">Languages</h4>
