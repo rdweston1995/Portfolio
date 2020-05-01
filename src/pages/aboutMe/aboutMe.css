@@ -107,6 +107,17 @@
 
     .skillsCol {
         padding: 0;
+        margin: 25px;
+    }
+
+    .skillsSubTitle {
+        text-align: center;
+    }
+
+    .languagesList, .databasesList, .toolsList {
+        text-align: center;
+        list-style-type: none;
+        padding: 0;
     }
 
     .skillsDiv {
