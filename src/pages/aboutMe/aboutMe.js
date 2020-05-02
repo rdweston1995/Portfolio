@@ -33,18 +33,18 @@ class aboutMe extends Component {
 
             <div className="aboutMe">
                 <Row className="aboutMeRow">
-                    <SubHeading id="aboutMeHeading" heading="About Me" />
+                    <SubHeading id="aboutMeHeading" className="text" heading="About Me" />
 
                     <div className="aboutMeDiv">
                         <img className="profilePicture" src="https://i.imgur.com/CbfJJZL.jpg" alt="The man the myth the legend" />
-                        <p className="aboutMeText" id="aboutMeId" data-toggle="tooltip" data-placement="top" title="tooltip on top">{aboutMeJSON.text}</p>
+                        <p className="aboutMeText text" id="aboutMeId" data-toggle="tooltip" data-placement="top" title="tooltip on top">{aboutMeJSON.text}</p>
                     </div>
                 </Row>
                 
                 <Row className="skillsRow">
-                        <h3 className="skillsTitle" >Skills</h3>
+                        <h3 className="skillsTitle text" >Skills</h3>
                         <Col className="skillsCol">
-                            <h4 className="skillsSubTitle">Languages</h4>
+                            <h4 className="skillsSubTitle text">Languages</h4>
                             <ul className="languagesList">
                                 {this.state.languages.map((lang, i) => {
                                     return (
@@ -54,7 +54,7 @@ class aboutMe extends Component {
                             </ul>
                         </Col>
                         <Col className="skillsCol">
-                            <h4 className="skillsSubTitle">Databases</h4>
+                            <h4 className="skillsSubTitle text">Databases</h4>
                             <ul className="databasesList">
                                 {this.state.databases.map((database, i) => {
                                     return (
@@ -64,7 +64,7 @@ class aboutMe extends Component {
                             </ul>
                         </Col>
                         <Col className="skillsCol">
-                            <h4 className="skillsSubTitle">Tools</h4>
+                            <h4 className="skillsSubTitle text">Tools</h4>
                             <ul className="toolsList">
                                 {this.state.tools.map((tool, i) => {
                                     return (
