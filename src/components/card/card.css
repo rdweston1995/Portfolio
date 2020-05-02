@@ -1,6 +1,7 @@
 #projectCard {
     width: 48%;
-    height: 750px;
+    height: 770px;
+    /* height: 100%; */
     padding: 30px;
     margin: 15px;
     float:left;
