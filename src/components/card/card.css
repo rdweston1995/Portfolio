@@ -44,6 +44,9 @@
     #projectCard {
         width: 90%;
         /* height: 850px; */
+    }
 
+    .websiteImage {
+        height: 200px;
     }
 }
