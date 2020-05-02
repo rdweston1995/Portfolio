@@ -1,6 +1,6 @@
 #projectCard {
     width: 48%;
-    height: 770px;
+    /* height: 770px; */
     /* height: 100%; */
     padding: 30px;
     margin: 15px;
@@ -44,5 +44,6 @@
     #projectCard {
         width: 90%;
         /* height: 850px; */
+
     }
 }
