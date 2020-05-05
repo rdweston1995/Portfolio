@@ -1,6 +1,6 @@
 .homePage{
     background-image: url("https://i.imgur.com/haBMi7g.jpg");
-    background-size: 100%;
+    background-size: 100% 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: 0;
 }
@@ -87,7 +87,41 @@
 }
 */
 
-@media screen and (max-width: 800px) {
+@media (orientation: landscape) {
+    .homePage{
+        background-image: url("https://i.imgur.com/haBMi7g.jpg");
+        background-size: 100% 100%;
+    }
+
+    /* #homePageName{
+        font-size: 350%;
+    }
+
+    #homePageTitle{
+        font-size: 350%;
+        top: 45%;
+    } */
+}
+
+@media (orientation: portrait) {
+    .homePage{
+        background-image: url("./../../images/DSC_0839.JPG");
+        background-size: 100% 100%;
+    }
+
+    #homePageName {
+        font-size: 4rem;
+        color: #ffffff;
+    }
+
+    #homePageTitle {
+        font-size: 3.5rem;
+        color: #ffffff;
+        top: 45%;
+    }
+}
+
+/* @media screen and (max-width: 800px) {
     .homePage{
         background-image: url("./../../images/DSC_0839.JPG");
         background-size: 100% 100%;
@@ -103,4 +137,4 @@
         color: #ffffff;
         top: 45%;
     }
-}
+} */
