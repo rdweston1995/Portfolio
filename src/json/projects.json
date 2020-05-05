@@ -13,20 +13,6 @@
         "image" : "",
         "github" : "https://github.com/rdweston1995/HikingApp",
         "key" : 2
-    },{
-        "title" : "Javascript Games",
-        "website": "",
-        "text" : "test",
-        "image" : "",
-        "github" : "",
-        "key" : 3
-    },{
-        "title" : "Test",
-        "website" : "",
-        "text" : "test",
-        "image" : "",
-        "github" : "",
-        "key" : 4
     }
 ]
     
