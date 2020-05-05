@@ -12,7 +12,7 @@ class home extends Component {
             <Row className="homePage">
                 <Col className="homePageCol">
                     <h1 id="homePageName" className="text">Robert Weston</h1>
-                    <h2 id="homePageTitle" className="text">Full Stack Web Developer</h2>                    
+                    <h2 id="homePageTitle" className="text">Full Stack Software Developer</h2>                    
                 </Col>
             </Row>
         )
