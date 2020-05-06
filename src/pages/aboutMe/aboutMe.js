@@ -4,7 +4,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
 //Components and JSON
-import ListItem from "../../components/listItem/listItem";
+// import ListItem from "../../components/listItem/listItem";
 import skillsJSON from "./../../json/skills.json";
 import aboutMeJSON from "./../../json/aboutMe.json";
 import SubHeading from "./../../components/subHeading/subHeading";
