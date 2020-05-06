@@ -16,7 +16,7 @@ class aboutMe extends Component {
     state = {
         languages: ['HTML', 'CSS', 'JavaScript', 'Java', 'Python', 'SQL'],
         databases: ['MySQL', 'MongoDB', 'DynamoDB'],
-        tools: ['Git/Github', 'Node', 'REST API\'s', 'aJax', 'jQuery', 'React'],
+        tools: ['Git/Github', 'Version Control', 'Node', 'REST API\'s', 'aJax', 'jQuery', 'React'],
         displayedSkill: ""
     }
 
