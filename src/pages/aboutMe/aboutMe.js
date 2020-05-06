@@ -45,33 +45,33 @@ class aboutMe extends Component {
                         <h3 className="skillsTitle text" >Skills</h3>
                         <Col className="skillsCol">
                             <h4 className="skillsSubTitle text">Languages</h4>
-                            <ul className="languagesList">
-                                {this.state.languages.map((lang, i) => {
-                                    return (
-                                        <ListItem skill={lang} key={i} onClick={((e) => this.skillOnClick(e, lang))} />
-                                    )
-                                })}
-                            </ul>
+                            <div className="languagesList">
+                            {this.state.languages.map((lang, i) => {
+                                return (
+                                    <p className="text" key={i}>{lang}</p>
+                                )
+                            })}
+                            </div>
                         </Col>
                         <Col className="skillsCol">
                             <h4 className="skillsSubTitle text">Databases</h4>
-                            <ul className="databasesList">
+                            <div className="databasesList">
                                 {this.state.databases.map((database, i) => {
                                     return (
-                                        <ListItem skill={database} key={i} onClick={((e) => this.skillOnClick(e, database))} />
+                                        <p className="text" key={i}>{database}</p>
                                     )
                                 })}
-                            </ul>
+                            </div>
                         </Col>
                         <Col className="skillsCol">
                             <h4 className="skillsSubTitle text">Tools</h4>
-                            <ul className="toolsList">
+                            <div className="toolsList">
                                 {this.state.tools.map((tool, i) => {
-                                    return (
-                                        <ListItem skill={tool} key={i} onClick={((e) => this.skillOnClick(e, tool))} />
+                                    return(
+                                        <p className="text" key={i}>{tool}</p>
                                     )
                                 })}
-                            </ul>
+                            </div>
                         </Col>
                     </Row>
             </div>
