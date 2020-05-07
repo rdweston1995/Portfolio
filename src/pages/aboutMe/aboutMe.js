@@ -32,9 +32,8 @@ class aboutMe extends Component {
         return (
 
             <div className="aboutMe">
+                <SubHeading id="aboutMeHeading" className="text" heading="About Me" />
                 <Row className="aboutMeRow">
-                    <SubHeading id="aboutMeHeading" className="text" heading="About Me" />
-
                     <div className="aboutMeDiv">
                         <img className="profilePicture" src="https://i.imgur.com/CbfJJZL.jpg" alt="The man the myth the legend" />
                         <p className="aboutMeText text" id="aboutMeId" data-toggle="tooltip" data-placement="top" title="tooltip on top">{aboutMeJSON.text}</p>
@@ -42,37 +41,41 @@ class aboutMe extends Component {
                 </Row>
 
                 <Row className="skillsRow">
-                    <h3 className="skillsTitle text" >Skills</h3>
-                    <Col className="skillsCol">
-                        <h4 className="skillsSubTitle text">Languages</h4>
-                        <div className="languagesList">
-                            {this.state.languages.map((lang, i) => {
-                                return (
-                                    <p className="text skillListItem" key={i}>{lang}</p>
-                                )
-                            })}
-                        </div>
-                    </Col>
-                    <Col className="skillsCol">
-                        <h4 className="skillsSubTitle text">Databases</h4>
-                        <div className="databasesList">
-                            {this.state.databases.map((database, i) => {
-                                return (
-                                    <p className="text skillListItem" key={i}>{database}</p>
-                                )
-                            })}
-                        </div>
-                    </Col>
-                    <Col className="skillsCol">
-                        <h4 className="skillsSubTitle text">Tools</h4>
-                        <div className="toolsList">
-                            {this.state.tools.map((tool, i) => {
-                                return (
-                                    <p className="text skillListItem" key={i}>{tool}</p>
-                                )
-                            })}
-                        </div>
-                    </Col>
+                    <div className="skillsDiv">
+                        <h3 className="skillsTitle text" >Skills</h3>
+                        <Row>
+                            <Col className="skillsCol">
+                                <h4 className="skillsSubTitle text">Languages</h4>
+                                <div className="languagesList">
+                                    {this.state.languages.map((lang, i) => {
+                                        return (
+                                            <p className="text skillListItem" key={i}>{lang}</p>
+                                        )
+                                    })}
+                                </div>
+                            </Col>
+                            <Col className="skillsCol">
+                                <h4 className="skillsSubTitle text">Databases</h4>
+                                <div className="databasesList">
+                                    {this.state.databases.map((database, i) => {
+                                        return (
+                                            <p className="text skillListItem" key={i}>{database}</p>
+                                        )
+                                    })}
+                                </div>
+                            </Col>
+                            <Col className="skillsCol">
+                                <h4 className="skillsSubTitle text">Tools</h4>
+                                <div className="toolsList">
+                                    {this.state.tools.map((tool, i) => {
+                                        return (
+                                            <p className="text skillListItem" key={i}>{tool}</p>
+                                        )
+                                    })}
+                                </div>
+                            </Col>
+                        </Row>
+                    </div>
                 </Row>
             </div>
         )
