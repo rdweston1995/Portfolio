@@ -44,7 +44,6 @@
     margin: 15px 15px 15px 7.5px;
     font-size: 3rem;
     text-shadow: 4px 3px 5px black;
-    /* border-bottom: 1px solid #ffffff; */
 }
 
 .skillsDiv{
@@ -54,7 +53,6 @@
 .skillsSubTitle {
     color: #ffffff;
     font-size: 2rem;
-    /* border-bottom: 1px solid #ffffff; */
     text-decoration: underline;
     text-underline-position: under;
 }
