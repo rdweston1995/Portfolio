@@ -3,7 +3,7 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 
 //CSS
-import "./card.css";
+import "./projectCard.css";
 
 function card(props) {
     return (
