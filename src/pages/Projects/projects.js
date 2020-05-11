@@ -4,7 +4,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
 //Components and JSON
-import Card from "./../../components/card/projectCard";
+import ProjectCard from "./../../components/card/projectCard";
 import projectsJson from "./../../json/projects.json";
 import SubHeading from "./../../components/subHeading/subHeading";
 
@@ -12,7 +12,6 @@ import SubHeading from "./../../components/subHeading/subHeading";
 import "./projects.css";
 
 class Projects extends Component{
-
     render(){
         return(
             <div className="projects">
@@ -21,7 +20,7 @@ class Projects extends Component{
                     <Col className="projectsCol">
                         {projectsJson.map(function(project, i) {
                             return (
-                                <Card 
+                                <ProjectCard 
                                     className="projectCard btn-secondary"
                                     title={project.title}
                                     text={project.text}
