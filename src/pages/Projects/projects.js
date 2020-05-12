@@ -4,7 +4,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
 //Components and JSON
-import ProjectCard from "./../../components/card/projectCard";
+import ProjectCard from "./../../components/projectCard/projectCard";
 import projectsJson from "./../../json/projects.json";
 import SubHeading from "./../../components/subHeading/subHeading";
 
