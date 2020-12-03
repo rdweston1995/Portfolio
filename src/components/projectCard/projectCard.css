@@ -9,6 +9,10 @@
     box-shadow: 2px 2px 5px #000000;
 }
 
+#projectCard:hover{ 
+    box-shadow: 2px 2px 5px #ffffff; 
+}
+
 .projectTitle {
     font-size: 50px;
     font-weight: bold;
@@ -51,3 +55,4 @@
         height: 200px;
     }
 }
+
