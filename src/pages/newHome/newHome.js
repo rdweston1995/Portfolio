@@ -9,7 +9,12 @@ import "./newHome.css";
 class newHome extends Component { 
     render() {
         return (
-            <div>Hello</div>
+            <div className="home">
+                <div>
+                    <Col></Col>
+                    <Col></Col>
+                </div>
+            </div>
         );
     }
 }
