@@ -35,7 +35,7 @@ class aboutMe extends Component {
                 <SubHeading id="aboutMeHeading" className="text" heading="About Me" />
                 <Row className="aboutMeRow">
                     <div className="aboutMeDiv">
-                        {/* <img className="profilePicture" src="https://i.imgur.com/CbfJJZL.jpg" alt="The man the myth the legend" /> */}
+                        <img className="profilePicture" src="https://rdweston1995.github.io/Portfolio/images/IMG_0480.JPG" alt="The man the myth the legend" />
                         <p className="aboutMeText text" id="aboutMeId" data-toggle="tooltip" data-placement="top" title="tooltip on top">{aboutMeJSON.text}</p>
                     </div>
                 </Row>

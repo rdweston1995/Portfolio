@@ -45,7 +45,7 @@
 
 @media (orientation: portrait) {
     .homePage{
-        background-image: url("./../../images/DSC_0839.JPG");
+        /* background-image: url("./../../images/DSC_0839.JPG"); */
         background-size: 100% 100%;
     }
 
