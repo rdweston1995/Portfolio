@@ -3,14 +3,14 @@
         "title" : "Just Duet",
         "website" : "https://gentle-brook-97291.herokuapp.com/",
         "text" : "Just Duet is a karaoke app for a user who doesn't know what song they want to sing. Or that wants to look up the lyrics of a song. Using Spotify API and MusixMatch API to gather song and lyrics data for the user.",
-        "image" : "https://i.imgur.com/2BVW0Af.jpg",
+        "image" : "require(./../../images/karoke.jpg)",
         "github" : "https://github.com/rdweston1995/JustDuet",
         "key" : 1
     },{
         "title" : "Hiking App",
         "website" : "",
         "text" : "Hiking App is a hike search app for a user that is looking for new hikes in their specified search area. The user can choose if they want to specify the search further with distance from search area, length of hike, and the user rating of the hike. Using the Hiking Project API paired with the Google Geolocation API for converting the users search to coordinates.",
-        "image" : "./images/IMG_0480.JPG",
+        "image" : "./../../images/IMG_0480.JPG",
         "github" : "https://github.com/rdweston1995/HikingApp",
         "key" : 2
     }
