@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+// import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import './app.css';
 
 //Pages
@@ -10,21 +10,13 @@ import WorkExperience from "./pages/workExperience/workExperience";
 // import ContactMe from "./pages/contactMe/contactMe";
 
 class App extends React.Component {
-    constructor(props){
-        super(props);
-        this.state = {
-            
-        }
-    }
-
     render(){
         return (
             <div className="app">
                 <Home />
                 <AboutMe />
                 <WorkExperience />
-                <Projects 
-                    images={this.state.images}/>
+                <Projects />
             </div>
             
             // <Router>

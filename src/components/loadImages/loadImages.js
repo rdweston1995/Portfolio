@@ -1,0 +1,1 @@
+exports.karaoke = require("../../images/karaoke.jpg");
