@@ -1,6 +1,6 @@
 .homePage{
     /* background-image: url("https://i.imgur.com/haBMi7g.jpg"); */
-    background-image: url("./../../images/hikingApp.png");
+    /* background-image: url("./../../images/hikingApp.png"); */
     background-size: 100% 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: 0;
@@ -40,6 +40,7 @@
 @media (orientation: landscape) {
     .homePage{
         background-image: url("https://i.imgur.com/haBMi7g.jpg");
+        /* background-image: url("./../../images/DSC_0949.JPG"); */
         background-size: 100% 100%;
     }
 }
