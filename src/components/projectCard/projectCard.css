@@ -9,6 +9,10 @@
     box-shadow: 2px 2px 5px #000000;
 }
 
+.font{
+    font-family: 'Roboto', sans-serif;
+}
+
 #projectCard:hover{ 
     box-shadow: 2px 2px 5px #ffffff; 
 }
@@ -36,6 +40,11 @@
     text-align: left;
 }
 
+form{
+    width: 130px;
+    float:left;
+}
+
 .projectBtn {
     display:inline-block;
     width: 110px;
@@ -43,6 +52,20 @@
     background-color: #5a5959;
     border-color: transparent;
     margin: 7.5px;
+    border-radius: 5px;
+    height: 2.5em;
+    color: #ffffff;
+}
+
+.projectBtn:hover{
+    background-color: #ffffff;
+    border-color: #ffffff;
+    color: black;
+}
+
+.projectBtn:active{
+    background-color: #ffffff;
+    border-color: #ffffff;
 }
 
 @media screen and (max-width: 480px) {
