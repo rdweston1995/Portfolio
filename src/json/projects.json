@@ -9,7 +9,7 @@
     },{
         "title" : "Bearable",
         "website" : "https://rdweston1995.github.io/HikingApp/",
-        "text" : "Hiking App is a hike search app for a user that is looking for new hikes in their specified search area. The user can choose if they want to specify the search further with distance from search area, length of hike, and the user rating of the hike. Using the Hiking Project API paired with the Google Geolocation API for converting the users search to coordinates.",
+        "text" : "Bearable is a hike search app for a user that is looking for new hikes in their specified search area. The user can choose if they want to specify the search further with distance from search area, length of hike, and the user rating of the hike. Using the Hiking Project API paired with the Google Geolocation API for converting the users search to coordinates.",
         "image" : "hikingApp",
         "github" : "https://github.com/rdweston1995/HikingApp",
         "key" : 2
