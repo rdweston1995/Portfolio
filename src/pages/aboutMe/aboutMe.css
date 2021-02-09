@@ -81,6 +81,15 @@
     font-size: 17px;
 }
 
+.socials{
+    color: #ffffff;
+    /* text-align: center; */
+}
+
+.socialsCol{
+    text-align: center;
+}
+
 @media screen and (max-width: 480px){
     .aboutMeDiv {
         height: 100%;

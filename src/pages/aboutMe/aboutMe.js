@@ -36,7 +36,20 @@ class aboutMe extends Component {
                 <Row className="aboutMeRow">
                     <div className="aboutMeDiv">
                         {/* <img className="profilePicture" src={require("./../../images/IMG_0480.JPG")} alt="The man the myth the legend" /> */}
-                        <p className="aboutMeText text" id="aboutMeId" data-toggle="tooltip" data-placement="top" title="tooltip on top">{aboutMeJSON.text}</p>
+                        <Row>
+                            <p className="aboutMeText text" id="aboutMeId" data-toggle="tooltip" data-placement="top" title="tooltip on top">{aboutMeJSON.text}</p>
+                        </Row>
+                        <Row>
+                            <Col className="socialsCol">
+                                <a className="socials text" href={aboutMeJSON.linkedin}>Linkedin</a>
+                            </Col>
+                            <Col className="socialsCol">
+                                <a className="socials text" href={aboutMeJSON.github}>Github - rdweston1995</a>
+                            </Col>
+                            <Col className="socialsCol">
+                                <p className="socials text">{aboutMeJSON.email}</p>
+                            </Col>
+                        </Row>
                     </div>
                 </Row>
 
