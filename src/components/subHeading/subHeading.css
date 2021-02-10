@@ -8,7 +8,9 @@
     width: 100%;
     font-size: 3em;
     text-shadow: 4px 3px 5px black;
-    font-family: 'Domine', serif;
+    /* font-family: 'Domine', serif; */
+    font-family: 'Roboto', sans-serif;
+
 }
 
 @media screen and (max-width: 480px) {
