@@ -22,7 +22,9 @@
     top: 12%;
     text-shadow: 3px 2px 5px black;
     /* font-family: 'Arvo', serif; */
-    font-family: 'Domine', serif;
+    /* font-family: 'Domine', serif; */
+    font-family: 'Roboto', sans-serif;
+
 }
 
 #homePageTitle{
@@ -34,7 +36,9 @@
     top: 25%;
     text-shadow: 3px 2px 5px black;
     /* font-family: 'Arvo', serif; */
-    font-family: 'Domine', serif;
+    /* font-family: 'Domine', serif; */
+    font-family: 'Roboto', sans-serif;
+
 }
 
 @media (orientation: landscape) {

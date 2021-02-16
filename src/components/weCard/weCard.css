@@ -5,6 +5,8 @@
     padding: 10px;
     margin: 10px 10% 10px 10%;
     box-shadow: 5px 2.5px 5px #000000;
+    /* font-family: 'Roboto', sans-serif; */
+
 }
 
 #workExpCompany{
@@ -23,7 +25,7 @@
     font-size: 1.5rem;
 }
 
-.font{
+.text{
     font-family: 'Roboto', sans-serif;
 }
 
